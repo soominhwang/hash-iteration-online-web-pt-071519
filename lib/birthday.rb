@@ -4,6 +4,6 @@ def happy_birthday(birthday_kids)
     if age < 12
       congrats << "Happy Birthday #{kids_name}! You are now #{age} years old!"
     end
-    congrats.join
+    return congrats.join
   end
 end
